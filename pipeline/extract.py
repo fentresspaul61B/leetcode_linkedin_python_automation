@@ -103,9 +103,6 @@ def extract_leet_code_data_from_api() -> List[Tuple]:
 
         # Seeking all of my "accepted" questions, denoted by "ac".
         if questions.status=="ac":
-            # print(questions.difficulty.level)
-            # print(questions)
-            # print("yump")
 
             # Collect the id and title (id is often wrong so not posting
             # in message currently.)
