@@ -7,6 +7,14 @@ My solution was to utilize the Leetcode and LinkedIn API's along with Big Query,
 
 ![alt text](images/linked_in.gif)
 
+One of my favorite parts about this project is how I get to interact with other data people around the world.
+
+Here are some of the messages I received related to the posts I make:
+
+> "Hey Paul how's it going brotha. I just wanted to say I'm hella inspired by you and some of the things you've done to learn."
+
+> "Dear Paul, I hope this message finds you well. I impressed by your active coding practice. I wanted to take a moment to appreciate your dedication and efforts in honing your coding skills. It's inspiring to see your commitment to continuous learning and improvement in the field of coding." 
+
 ## How it Works
 
 The way that this pipeline works is relatively simple and follows these steps:
@@ -14,7 +22,7 @@ The way that this pipeline works is relatively simple and follows these steps:
 2. Compare all problems in database to all solved problems from Leetcode.
 3. If there is 2 or more new solved problems in the response from leetcode, continue, otherwise do nothing.
 4. Given there are 2 or more new solved problems, transform the responses from Leetcode into a LinkedIn post.
-5. Load the LinkedIn post onto LinkedIn profile using API.
+5. Post/Load the LinkedIn post onto LinkedIn profile using API.
 6. Update the bigquery database.
 
 This pipeline runs every two hours using GitHub actions. 
