@@ -158,29 +158,6 @@ def extract():
 def main():
     print(len(extract_leet_code_data_from_api()))
     print(len(extract_problems_only_from_bq()))
-    # for problem in extract_leet_code_data_from_api():
-    #     print(problem)
-#     configuration = leetcode.Configuration()
-#     configuration.api_key["x-csrftoken"] = "ox3P8Q1achtjKgrr088OrfmI5lq71e35e0b53VvxhvwMOYg344qX5yqRtmKay9un"
-#     configuration.api_key["csrftoken"] = "ox3P8Q1achtjKgrr088OrfmI5lq71e35e0b53VvxhvwMOYg344qX5yqRtmKay9un"
-#     configuration.api_key["LEETCODE_SESSION"] = """eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiNDc2NjI1MyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6ImRhNmUwNzA1M2E2ODdmMzI1MTc1NWU1MzFhNjJhOTY0MDNjMzc0ZGEiLCJpZCI6NDc2NjI1MywiZW1haWwiOiJmZW50cmVzc3BhdWxAYmVya2VsZXkuZWR1IiwidXNlcm5hbWUiOiJmZW50cmVzc3BhdWwiLCJ1c2VyX3NsdWciOiJmZW50cmVzc3BhdWwiLCJhdmF0YXIiOiJodHRwczovL2Fzc2V0cy5sZWV0Y29kZS5jb20vdXNlcnMvYXZhdGFycy9hdmF0YXJfMTY4NTA5NzkxNy5wbmciLCJyZWZyZXNoZWRfYXQiOjE2ODYyMDM2ODQsImlwIjoiMjYwMTo2NDk6MTAwOmNlMzA6ZDU2OTo2M2FkOjZlM2U6ZTU1OSIsImlkZW50aXR5IjoiNWYwZmY1ZDg3OTllZDRjMGVkMzU1ZmE0NzRhN2JiYzIiLCJzZXNzaW9uX2lkIjo0MDUyMDA2OX0.ZfGn_cDnWqdCxXZv4f2O7dU1dKksPhEzbhlO5pgpuCo"""
-#     configuration.api_key["Referer"] = "https://leetcode.com"
-#     configuration.debug = False
-
-#     # Creating leetcode API object to make calls.
-#     api_instance = leetcode.DefaultApi(leetcode.ApiClient(configuration))
-#     graphql_request = leetcode.GraphqlQuery(
-#     query="""
-#       {
-#         user {
-#           username
-#           isCurrentUserPremium
-#         }
-#       }
-#     """,
-#     variables=leetcode.GraphqlQueryVariables(),
-# )
-
     return
 
 
