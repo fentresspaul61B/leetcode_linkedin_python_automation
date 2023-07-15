@@ -1,5 +1,4 @@
 # Automated LinkedIn Posts + Leetcode
-![example workflow](https://github.com/fentresspaul61B/NeetCode_150/actions/workflows/integration_tests.yml/badge.svg)
 
 ## Project Description
 The motivation for this project is that I want to remain active on LinkedIn while also remaining consistent with practicing Leetcode; however, doing both of these activities everyday after work was too time consuming, and I wanted to use automation to add more hours back into my free time, while not compromising on my goals.
