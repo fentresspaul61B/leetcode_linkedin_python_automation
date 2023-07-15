@@ -1,5 +1,4 @@
 # Automated LinkedIn Posts + Leetcode
-![example workflow](https://github.com/fentresspaul61B/NeetCode_150/actions/workflows/run_ETL_pipeline.yml/badge.svg)
 ![example workflow](https://github.com/fentresspaul61B/NeetCode_150/actions/workflows/integration_tests.yml/badge.svg)
 
 ## Project Description
