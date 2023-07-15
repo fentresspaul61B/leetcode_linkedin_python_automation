@@ -1,18 +1,22 @@
 # Github actions workflow pipeline that pulls data from leetcode, 
 # checks for new solved problems, if new problems are solved, creates
-# LinkedIn post, and sends that post.
+# LinkedIn post, and sends that post. 
 
 name: Run ETL pipeline
 
 on:
   # Pipeline runs when pushed.
-  push:
+  # push:
 
   # Pipeline can be run through github UI in the actions tab.
   workflow_dispatch:
 
-  schedule:
-    - cron: '0 */2 * * *' # Pipeline is ran every 2 hours..
+
+  # I turned off the schedule, because this is just an example repo, I have a private
+  # repo which is continously running, so no need for duplicate work. 
+  
+  #schedule:
+    # - cron: '0 */2 * * *' # Pipeline is ran every 2 hours..
 
 # Setting up env variables for actions pipeline.
 env:
