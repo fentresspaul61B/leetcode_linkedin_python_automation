@@ -57,10 +57,7 @@ def run_pipeline():
 
 
 def main():
-    # run_pipeline()
     run_pipeline()
-    # current_problems_solved = extract_leet_code_data_from_api()
-    # update_leet_code_problem_count(current_problems_solved)
 
 if __name__ == "__main__":
     main()
