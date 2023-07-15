@@ -84,7 +84,7 @@ In order to access the URN, you must first create the user OATH code in the prev
 ## Do it Yourself! 
 If you would like to automate your LinkedIn with the Leetcode API, follow the articles and videos I posted above, to create LinkedIn company account, and gain access to the required tokens. Then clone this repo, create a virtual environment, pip install the requirements.txt file, add the required tokens, and let the pipeline run! 
 
-### If you find this repo helpful for your project leave a star! 
+### If you find this repo helpful for your project leave a star! ⭐
 
 ### If you have any questions open a issue!
 
