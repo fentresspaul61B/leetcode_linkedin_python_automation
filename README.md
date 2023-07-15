@@ -5,7 +5,7 @@ The motivation for this project is that I want to remain active on LinkedIn whil
 
 My solution was to utilize the Leetcode and LinkedIn API's along with Big Query, to create an ETL pipeline that every two hours extracts my solved problems from Leetcode, checks if there are any new problems (not existing yet in my database), generates a post based on the new problems, and automatically posts to LinkedIn using the LinkedIn API. 
 
-![alt text](linked_in.gif)
+![alt text](images/linked_in.gif)
 
 ## How it Works
 
@@ -19,7 +19,7 @@ The way that this pipeline works is relatively simple and follows these steps:
 
 This pipeline runs every two hours using GitHub actions. 
 
-![alt text](ETL.png)
+![alt text](images/ETL.png)
 
 ## Maintenance: Variables which will expire or change overtime in this project.
 
