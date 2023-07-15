@@ -20,14 +20,6 @@ TABLE_ID = 'linkedin-pipeline.LEETCODE.LEETCODE'
 print("Service account connected.")
 
 
-# def insert_row(row):
-#     """Func"""
-#     # Insert the row into the table
-#     errors = client.insert_rows_json(TABLE_ID, [row])
-#     if errors:
-#         print('Error inserting row:', errors)
-
-
 ########################################################################
 # COMPONENT #1: LOAD DATA INTO BQ
 ########################################################################
