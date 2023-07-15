@@ -194,18 +194,6 @@ def transform(current_problems, old_problems):
 
 def main():
     """For testing."""
-    # test_list_of_dcts = [
-    #     {
-    #         'problem': 'Binary Tree Paths',
-    #         'difficulty': 'Easy',
-    #         'url': 'https://leetcode.com/problems/binary-tree-paths',
-    #         'date': '2023-06-01',
-    #         "weekday": "Thursday"
-    #     }
-    # ]
-    # print(construct_linked_in_post(test_list_of_dcts, 100))
-    # return test_list_of_dcts
-    # transform()
     return
 
 
