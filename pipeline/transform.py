@@ -36,9 +36,6 @@ def prepare_data_for_big_query(problem_solved: Tuple[str, str]) -> Dict:
     Data must be put into a JSON format in order to be loaded into BQ. The
     keys of the dictionary match the names of the columns in the BQ table.
 
-    Link to BQ table:
-    https://console.cloud.google.com/bigquery?project=linkedin-pipeline&ws=
-    !1m5!1m4!4m3!1slinkedin-pipeline!2sLEETCODE!3sLEETCODE
     """
     # The problem and difficulty are all the data required to make a post.
     problem, difficulty = problem_solved
