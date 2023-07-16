@@ -89,6 +89,9 @@ In order to access the URN, you must first create the user OATH code in the prev
     
 2. That will output a JSON in the browser, find the “ID” value and copy it.
 
+## Whats next?
+There are many things that could be added to this pipeline, for example, using Chat GPT API to automatically generate engaging posts. 
+
 ## Do it Yourself! 
 If you would like to automate your LinkedIn with the Leetcode API, follow the articles and videos I posted above, to create LinkedIn company account, and gain access to the required tokens. Then clone this repo, create a virtual environment, pip install the requirements.txt file, add the required tokens, and let the pipeline run! 
 
